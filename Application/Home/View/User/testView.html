@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>测试模版文件</title>
+	</head>
+	<body>
+		Hello 蓝色模版<br/>
+		<!--  
+		{$aaa|date='Y-m-d',###}<br/>
+		{:date('Y-m-d',$aaa)}<br/>
+		{$Think.session.bbb}
+		-->
+		<volist name="aaa" id="c" mod="2" empty="$empty">
+			<if condition="$mod eq 0">
+				<span style="color:red;">{$i}-{$key}--{$c}</span><br/>
+				<else/>
+				<span style="color:green;">{$i}-{$key}--{$c}</span><br/>
+			</if>
+		</volist>
+	</body>
+</html>

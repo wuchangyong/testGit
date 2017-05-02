@@ -1,0 +1,617 @@
+[ 2017-04-26T09:12:03+08:00 ] ::1 /tp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 1146:Table 'u32.tb__user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb__user`
+ERR: 1146:Table 'u32.tb__user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb__user`
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\tp\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\php\webapp\tp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\tp\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\php\webapp\tp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-04-26T09:13:13+08:00 ] ::1 /tp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `tb_user` WHERE ( userName='18996157300' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userjob` [ RunTime:0.0070s ]
+SQL: SELECT m.* FROM tb_userjob uj,tb_jobmenu jm,tb_menu m WHERE ( uj.jid=jm.jid and jm.mid=m.mid and uj.uid=1 )  [ RunTime:0.0340s ]
+
+[ 2017-04-26T10:22:19+08:00 ] ::1 /tp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` WHERE ( userName='18996157300' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userjob` [ RunTime:0.0000s ]
+SQL: SELECT m.* FROM tb_userjob uj,tb_jobmenu jm,tb_menu m WHERE ( uj.jid=jm.jid and jm.mid=m.mid and uj.uid=1 )  [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:23:59+08:00 ] ::1 /tp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` WHERE ( userName='1 and 1=1' )  [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:24:46+08:00 ] ::1 /tp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` WHERE ( userName='1 or 1=1' )  [ RunTime:0.0156s ]
+
+[ 2017-04-26T10:26:10+08:00 ] ::1 /tp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' and 1=1' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_user` WHERE ( userName=''1' and 1=1' ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' and 1=1' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_user` WHERE ( userName=''1' and 1=1' ) 
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\tp\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\php\webapp\tp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\tp\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\php\webapp\tp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-04-26T10:32:00+08:00 ] ::1 /tp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` WHERE `userName` = '18996157300'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userjob` [ RunTime:0.0156s ]
+SQL: SELECT m.* FROM tb_userjob uj,tb_jobmenu jm,tb_menu m WHERE ( uj.jid=jm.jid and jm.mid=m.mid and uj.uid=1 )  [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:33:26+08:00 ] ::1 /tp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` WHERE `userName` = '18996157300'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userjob` [ RunTime:0.0156s ]
+SQL: SELECT m.* FROM tb_userjob uj,tb_jobmenu jm,tb_menu m WHERE ( uj.jid=jm.jid and jm.mid=m.mid and uj.uid=1 )  [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:36:35+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:37:58+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015601s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:42:14+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:42:43+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:43:11+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:43:22+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:50:25+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` WHERE ( 1=1  ) LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:50:32+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` WHERE ( 1=1 and userName like '%189%' ) LIMIT 1   [ RunTime:0.0468s ]
+SQL: SELECT * FROM `tb_user` WHERE ( 1=1 and userName like '%189%' ) LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:51:15+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` WHERE ( 1=1  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` WHERE ( 1=1  ) LIMIT 0,10   [ RunTime:0.0156s ]
+
+[ 2017-04-26T10:51:20+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` WHERE ( 1=1 and userName like '%189%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` WHERE ( 1=1 and userName like '%189%' ) LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:55:10+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:55:15+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` WHERE `userName` LIKE '%189%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` WHERE `userName` LIKE '%189%' LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:55:22+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:55:35+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` WHERE `trueName` LIKE '%张%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` WHERE `trueName` LIKE '%张%' LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:55:42+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` WHERE `trueName` LIKE '%吴%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` WHERE `trueName` LIKE '%吴%' LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:55:48+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` WHERE `trueName` LIKE '%陈%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` WHERE `trueName` LIKE '%陈%' LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T11:20:54+08:00 ] ::1 /tp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` WHERE `userName` = '18996157300'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userjob` [ RunTime:0.0000s ]
+SQL: SELECT m.* FROM tb_userjob uj,tb_jobmenu jm,tb_menu m WHERE ( uj.jid=jm.jid and jm.mid=m.mid and uj.uid=1 )  [ RunTime:0.0000s ]
+
+[ 2017-04-26T11:23:38+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T14:20:18+08:00 ] ::1 /tp/index.php/Home/User/loadUserList?pageNo=2&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tb_user` LIMIT 10,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T14:20:20+08:00 ] ::1 /tp/index.php/Home/User/loadUserList?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T14:20:47+08:00 ] ::1 /tp/index.php/Home/User/loadUserList?pageNo=2&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tb_user` LIMIT 10,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T14:20:50+08:00 ] ::1 /tp/index.php/Home/User/loadUserList?pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T14:52:17+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T14:52:42+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` WHERE `trueName` LIKE '%张%' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-04-26T14:55:16+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T14:59:25+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:03:26+08:00 ] ::1 /tp/index.php?c=User&a=saveOrUpdateUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\php\webapp\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\webapp\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T15:06:51+08:00 ] ::1 /tp/index.php?c=User&a=saveOrUpdateUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\php\webapp\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\webapp\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-04-26T15:07:54+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:12:48+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:14:33+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:14:46+08:00 ] ::1 /tp/index.php/Home/User/saveOrUpdateUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\php\webapp\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\webapp\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_user` (`userName`,`userPass`,`trueName`) VALUES ('18996157303','123','知道') [ RunTime:0.0936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-04-26T15:19:26+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:19:29+08:00 ] ::1 /tp/index.php/Home/User/loadUserList?pageNo=2&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tb_user` LIMIT 10,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:19:38+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:20:01+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:20:03+08:00 ] ::1 /tp/index.php/Home/User/loadUserList?pageNo=2&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tb_user` LIMIT 10,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:21:08+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:21:10+08:00 ] ::1 /tp/index.php/Home/User/loadUserList?pageNo=2&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tb_user` LIMIT 10,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:21:41+08:00 ] ::1 /tp/index.php/Home/User/saveOrUpdateUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\php\webapp\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\webapp\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `tb_user` SET `userName`='18996157303',`userPass`='123',`trueName`='不知道' WHERE ( uid=17 ) [ RunTime:0.1404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-04-26T15:23:44+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:24:06+08:00 ] ::1 /tp/index.php/Home/User/saveOrUpdateUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\php\webapp\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\webapp\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_user` (`userName`,`userPass`,`trueName`) VALUES ('18996157304','123','吴宇森') [ RunTime:0.1092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:24:13+08:00 ] ::1 /tp/index.php/Home/User/loadUserList?pageNo=2&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` LIMIT 10,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:24:50+08:00 ] ::1 /tp/index.php/Home/User/loadUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-04-26T15:25:09+08:00 ] ::1 /tp/index.php/Home/User/saveOrUpdateUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\php\webapp\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\webapp\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_user` (`userName`,`userPass`,`trueName`) VALUES ('18996157305','123','吴镇宇') [ RunTime:0.0624s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_user` ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+
